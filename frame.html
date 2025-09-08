@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Layout dengan Frameset</title>
+</head>
+<frameset rows="20%,10%,*,10%" border="1">
+    <!-- Baris 1: Header -->
+    <frame src="header.html" name="header">
+
+    <!-- Baris 2: Menu Navigasi -->
+    <frame src="navigasi.html" name="navigasi">
+
+    <!-- Baris 3: Sidebar + Content -->
+    <frameset cols="25%,*">
+        <frame src="sidebar.html" name="sidebar">
+        <frame src="content.html" name="content">
+    </frameset>
+
+    <!-- Baris 4: Footer -->
+    <frame src="footer.html" name="footer">
+</frameset>
+</html>
